@@ -1,0 +1,28 @@
+.parent{
+    display: flex;
+    justify-content:start;
+    text-align: center;
+}
+.child{
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.child:hover{
+    background-color: rgb(134, 134, 126);
+}
+img{
+    height: 600px;
+    width: 335px;
+}
+.bord{
+    transition: 0.2s;
+}
+.bord:hover{
+    transform: translateY(-1.5%);
+    box-shadow: 5px 10px 10px 8px #888888;
+}
+button{
+    margin-left: 200px;
+    margin-top: 400px;
+}

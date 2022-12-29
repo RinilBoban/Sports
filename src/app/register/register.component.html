@@ -1,0 +1,27 @@
+<form [formGroup]="registerForm">
+    <div class="row" style="background-color: rgba(57,87,79,0.5);border: 1px black solid; border-radius: 20px; text-align: center;">
+
+        <div class="col-6">
+            <!-- <input placeholder="Account Number"> -->
+            <input formControlName="uname" type="text" id="uid" name="uname" placeholder="Enter User Name" class="form-control mt-3">
+            <div class="text-danger" *ngIf="this.registerForm.get('uname')?.errors && this.registerForm.get('uname')?.touched"><p>Invalid User Name</p></div>
+
+        </div>
+
+        <div class="col-6">
+            <!-- <input type="text" placeholder="Password"> -->
+            <input formControlName="psw" type="text" id="uid" name="psw" placeholder="Enter Password" class="form-control mt-3">
+            <div class="text-danger" *ngIf="this.registerForm.get('psw')?.errors && this.registerForm.get('psw')?.touched"><p>Invalid Password</p></div>
+
+        </div>
+        
+        <div class="col-6">
+            <button class="btn btn-success">Register</button>
+        </div>
+
+        <div class="col-6">
+            <p>Already a member?</p><a href="">Login</a><p>now</p>
+        </div>
+
+    </div>
+</form>

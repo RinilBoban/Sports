@@ -1,0 +1,140 @@
+header{
+    padding: 60px;
+    height: 350px;
+    background-color: rgb(2, 5, 7); 
+
+}
+body{
+    background-color: aliceblue;
+}
+.rightText{
+    margin-top: -65px;
+    text-align: end;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header button{
+    height: 60px;
+    width: 120px;
+    color: rgba(0, 0, 0, 0.822);
+    background-color: rgb(250, 220, 49);
+    border-radius: 10px;
+    animation: anim 700ms ease-in-out 10ms infinite;
+}
+header button:hover{
+    background-color: rgb(245, 224, 105);
+}
+@keyframes anim{
+    from{
+        width:default ;
+    }
+    to{
+        /* width: 600px; */
+        transform: scale(1.1);
+    }
+}
+.leftText{
+    margin-top: -25px;
+    width: 130px;
+    color: rgb(253, 227, 78);
+}
+header img{
+    transition: 0.2s;
+    margin-left: 30px;
+}
+header img:hover{
+    transform: translateY(-2.5%);
+}
+.carousel{
+    padding: 60px;
+}
+.news{
+    padding: 60px;
+    position: relative;
+}
+.leftnews{
+    position: sticky;
+    top:20px;
+    text-align: justify;
+}
+.fourgrid img{
+    height: 227px;
+    width: 442px;
+}
+.fcard{
+    transition: 0.2s;
+}
+.fcard:hover{
+    transform: translateY(-1.5%);
+    box-shadow: 5px 10px 10px 8px #888888;
+}
+
+.spanel{
+    /* padding: 10px; */
+    /* margin-left: 380px; */
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    margin-left: 10px;
+    /* display: flex; */
+    /* justify-content: space-around;
+    height: 600px;
+    background-color: cadetblue; */
+}
+.sbox{
+    height: 120px;
+    width: 440px;
+    background-color: white;
+    border: 0.5px solid rgba(187, 187, 187, 0.884);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.sbox:hover{
+    transform: translateY(-1.5%);
+    box-shadow: 5px 10px 10px 8px #888888;
+}
+
+.stext{
+    padding-top: 20px;
+    /* margin-left: 10px; */
+}
+.sbox img{
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.bone{
+    margin-left: 460px;
+    margin-top: -120px;
+}
+.btwo{
+    margin-top: 30px;
+}
+.bthree{
+    margin-left: 460px;
+    margin-top: -120px;
+}
+.bfour{
+    margin-top: 30px;
+}
+.bfive{
+    margin-top: -120px;
+    margin-left: 460px;
+}
+footer{
+    background-color: azure;
+    padding: 60px;
+    height: 600px;
+}
+.fone{
+    color: rgb(109, 109, 235);
+    margin-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ftwo{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.fthree{
+    margin-top: -350px;
+    margin-left: 300px;
+}
