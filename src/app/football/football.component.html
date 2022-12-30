@@ -9,6 +9,9 @@
   </div>
   <br>
   <img src="../../assets/footballhead.jpg">
+<div class="log">
+  <button (click)="logout()">Log Out</button>
+</div>
 </header>
 
 <!-- HEADER ENDS -->
@@ -29,22 +32,22 @@
       <div class="carousel-item active" data-bs-interval="1000">
         <img src="../../assets/Argentina.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Argentina WINSSSSSSSS!!!!!</h5>
+          <h2>Argentina WINSSSSSSSS!!!!!</h2>
           <p></p>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="1000">
+      <div class="carousel-item" data-bs-interval="1500">
         <img src="../../assets/messigold.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>AM Vulcan 420</h5>
+          <h2>Messi wins the BallonD'or again</h2>
           <p></p>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="1000">
+      <div class="carousel-item" data-bs-interval="1500">
         <img src="../../assets/crono.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Ronaldo is the GOAT</h5>
-          <p>Confirmed by FIFA</p>
+          <h2>Ronaldo is the GOAT</h2>
+          <p>FIFA Confirms</p>
         </div>
       </div>
     </div>
@@ -59,11 +62,20 @@
   </div>
   <!-- CAROUSEL ENDS -->
 
+  <!-- DATE PICKER START -->
+
+  <div class="datepicker" (click)="ticketbooker()">
+    <h2>Book tickets for the Premiere League Matches</h2>
+    <button class="btn btn-light">Click here</button>
+  </div>
+
+  <!-- DATE PICKER END -->
+
   <!-- NEWS START -->
   <div class="row news">
     <div class="col-lg-3">
       <div class="leftnews">
-        <h2>Latest FIFA News</h2>
+        <h2>Latest Football News</h2>
         <p>FIFA is working on a wide range of topics from improving the women's game and developing football around the
           world to ensuring better football governance structures.</p>
       </div>
@@ -92,7 +104,7 @@
         </div>
         <div class="col" (click)="mbappe()">
           <div class="card fcard">
-            <img src="../../assets/fifa3.jpg" class="card-img-top" alt="...">
+            <img src="../../assets/mbappe1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Mbappe returns to PSG and joins back with the squad</h5>
               <p class="card-text"></p>
@@ -343,7 +355,7 @@
 <footer>
 
   <div class="fone">
-    <H3>FIFA</H3>
+    <H3>SPORTS-FOOTBALL</H3>
   </div>
   <div class="ftwo">
     <h5>EXPLORE</h5>
@@ -365,8 +377,8 @@
     <p>Contact FIFA</p>
   </div>
 
-  <div>
-    <i class="fa-brands fa-instagram"></i>  <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-tiktok"></i> <i class="fa-brands fa-linkedin"></i> <i class="fa-brands fa-discord"></i>
+  <div class="icons">
+    <i class="fa fa-instagram fs-4"></i> &nbsp;  <i class="fa fa-facebook fs-4"></i> &nbsp; <i class="fa fa-twitter fs-4"></i> <i class="fa fa-tiktok"></i> &nbsp; <i class="fa fa-linkedin fs-4"></i> &nbsp; <i class="fa fa-youtube fs-4"></i> &nbsp; <i class="fa fa-android fs-4"></i>  <i class="fa fa-discord"></i>
   </div>
 
 </footer>

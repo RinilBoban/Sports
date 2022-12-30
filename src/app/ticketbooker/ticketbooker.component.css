@@ -1,0 +1,35 @@
+body{
+    background-image: url(../../assets/loginWP.webp);
+    background-size: cover;
+    height: 598px;
+}
+.row{
+    /* margin-top: 100px; */
+    margin-left: 70px;
+}
+.col-6{
+    margin-top: 50px;
+}
+img:hover{
+    transform: translateY(-1.5%);
+    box-shadow: 5px 10px 10px 8px #f3ebeb;
+}
+img{
+    height: 300px;
+    width: 500px;
+    transition: 0.2s;
+}
+.btn-light{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.tavail{
+    /* width: 40%; */
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    border-bottom: 5px solid whitesmoke;
+}
+.btn-primary:focus {     
+    background-color:rgb(138, 215, 245);    
+}

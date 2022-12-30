@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FootmbappeComponent } from './footmbappe/footmbappe.component'
 import { FootmanipComponent } from './footmanip/footmanip.component';
+import { TicketbookerComponent } from './ticketbooker/ticketbooker.component';
 
 const routes: Routes = [
   {path:'',component:LoginComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'football',component:FootballComponent},
   {path:'cricket',component:CricketComponent},
   {path:'footmbappe',component:FootmbappeComponent},
-  {path:'footmanip',component:FootmanipComponent}
+  {path:'footmanip',component:FootmanipComponent},
+  {path:'ticketbooker',component:TicketbookerComponent}
 
 ];
 

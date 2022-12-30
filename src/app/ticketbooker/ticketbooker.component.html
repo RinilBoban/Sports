@@ -1,0 +1,62 @@
+<body>
+  <div class="tavail">
+    <h2>Matches available</h2>
+  </div>
+  }
+<div class="row">
+    <div class="col-6">
+        <img src="../../assets/ticket3.jpg" alt="">
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Book Now
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Enter date and other details</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="date" style="text-align: center;">
+                Date Picker: <input type="date" [min]="minDate" [max]="maxDate" [(ngModel)]="date"> <br><br>
+                <!-- <h5>User selected date is : {{date}}</h5> -->
+                </div>     <br>
+                
+                <div class="num" style="text-align: center;">
+                  <h5>Select number of seats</h5>
+                  <button class="btn btn-primary">1</button>
+                  <button class="btn btn-primary">2</button>
+                  <button class="btn btn-primary">3</button>
+                  <button class="btn btn-primary">4</button>
+                </div>
+<br>
+                <div class="cash">
+                  <label for="c1"><h5>Payment Mode: </h5></label>&nbsp;
+                  <label for="">Online </label>
+                  <input type="radio" name="c1">&nbsp;
+                  <label for="">Offline </label>
+                  <input type="radio" name="c1" id="">         
+                </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" (click)="detail()">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <div class="col-6">
+        <img src="../../assets/ticket1.webp" alt="">
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Book Now
+        </button>      
+        
+    </div>
+
+</div>
+</body>

@@ -16,6 +16,12 @@ export class FootballComponent {
   manip(){
     this.router.navigateByUrl('footmanip')
   }
+  ticketbooker(){
+    this.router.navigateByUrl('ticketbooker')
+  }
+  logout(){
+    this.router.navigateByUrl('')
+  }
 
 
 }

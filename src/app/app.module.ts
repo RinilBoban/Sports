@@ -12,6 +12,8 @@ import { VolleyballComponent } from './volleyball/volleyball.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FootmbappeComponent } from './footmbappe/footmbappe.component';
 import { FootmanipComponent } from './footmanip/footmanip.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TicketbookerComponent } from './ticketbooker/ticketbooker.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +26,15 @@ import { FootmanipComponent } from './footmanip/footmanip.component';
     TennisComponent,
     VolleyballComponent,
     FootmbappeComponent,
-    FootmanipComponent
+    FootmanipComponent,
+    TicketbookerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

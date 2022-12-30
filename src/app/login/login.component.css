@@ -1,8 +1,33 @@
-.ful{
+body{
+    height: 647px;
     background-image: url(../../assets/loginWP.webp);
     background-size: cover;
+    padding-top: 50px;
 }
-img{
-    height:100%;
-    width:10%
+.heading{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    background-color: rgba(112, 128, 144, 0.801);
+}
+.child{
+    margin-top: 15px;
+    /* margin-top: 7.5px;
+    margin-bottom: 7.5; */
+
+}
+.username{
+    margin-top: 50px;
+}
+.reg{
+    margin-bottom: 50px;
+}
+.parent{
+    padding-top: 50px;
+}
+.child a{
+    /* margin-top: -50px; */
+    color: aliceblue;
+    /* margin-bottom: 30px; */
 }
